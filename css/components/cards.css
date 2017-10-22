@@ -13,3 +13,8 @@
   justify-content: space-around;
 }
 
+@media (max-width: 400px){
+  .card{
+    padding: 20px;
+  }
+}
