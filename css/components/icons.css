@@ -1,0 +1,26 @@
+.social-icon{
+  font-size: 26px;
+}
+
+.social-icon:hover{
+  color: red;
+}
+
+.icon-white{
+  font-size: 30px;
+  width: 100%;
+  padding: 15px 0;
+  color: white;
+}
+
+.icon-white:hover{
+  color: lightgrey;
+}
+
+.icon-secret{
+  font-size: 30px;
+}
+
+.icon-secret:hover{
+  color: white;
+}

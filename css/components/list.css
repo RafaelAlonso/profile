@@ -1,0 +1,25 @@
+.list-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-img{
+  width: 100px;
+  text-align: center;
+}
+
+.list-body{
+  padding: 0 10px;
+  flex: 1 1 auto;
+}
+
+.list-body h4,
+.list-body p{
+  margin: 6px 0;
+}
+
+.list-body p{
+  font-size: 15px;
+}

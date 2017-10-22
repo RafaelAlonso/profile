@@ -1,0 +1,10 @@
+.btn-blue{
+  padding: 13px;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: white;
+}
+
+.btn-centered{
+  text-align: center;
+}

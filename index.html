@@ -1,72 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metas -->
     <meta charset="UTF-8">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Outside links -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Inside links -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Rafael Alonso's Profile Page</title>
   </head>
   <body>
-    <div id="sidebar">
-      <a href="#"><i class="sidebar-btn-grey fa fa-info-circle"><br>About Me</i></a>
-      <a href="#"><i class="sidebar-btn-grey fa fa-info-circle"><br>About Me</i></a>
-      <a href="#"><i class="sidebar-btn-grey fa fa-code"><br>Languages I know</i></a>
+
+    <div class="navbar">
+      <div class="normal-icon">
+        <a href="#info"><i class="icon-white fa fa-info-circle text-center"></i></a><br>
+        <a href="#portfolio"><i class="icon-white fa fa-code"></i></a></li>
+      </div>
+      <div class="secret-icon">
+        <a href="/secret.html"><i class="icon-secret fa fa-lock"></i></a>
+      </div>
     </div>
 
     <div class="container">
-
-      <div class="box-white">
-        <img src="images/profile_img.png" alt="Rafael Alonso's Profile picture" id="profile-img">
-        <h1>Hi, I'm Rafael Alonso</h1>
-        <h3>Student @LeWagon, programmer and Computer Scientist</h3>
-        <p class="text-center">Eager to chenage the Educational System to a funnier, better way to learn things</p>
-        <a href="#" class="btn-blue">Check out what I did!</a>
+      <div class="profile">
+        <div class="card main-section">
+          <div class="card-content">
+            <img src="images/profile_img.png" alt="Rafael Alonso's Profile picture" id="profile-img">
+            <h1>Hi, I'm Rafael Alonso</h1>
+            <h4>Student @LeWagon, programmer and Computer Scientist</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sequi, quaerat aliquam. Dignissimos quibusdam suscipit, possimus cumque facilis! Exercitationem eius, fuga aspernatur. </p>
+          </div>
+        </div>
+        <div class="card social-section">
+          <div class="card-content">
+            <h3>You can find me here</h3>
+            <ul class="text-center list-inline">
+              <li><a href="#"><i class="fa social-icon fa-github" aria-hidden="true"> <br>Github</i></a></li>
+              <li><a href="#"><i class="fa social-icon fa-linkedin" aria-hidden="true"> <br>LinkedIn</i></a></li>
+              <li><a href="#"><i class="fa social-icon fa-facebook" aria-hidden="true"> <br>Facebook</i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card sample-section">
+          <div class="card-content">
+            <h3 class="text-center">Some things that I can work with!</h3>
+            <div class="list">
+              <div class="list-item">
+                <div class="list-img">
+                  <img src="images/html5_logo.png" class="img-small" alt="HTML5">
+                </div>
+                <div class="list-body">
+                  <h4>HTML 5</h4>
+                  <p>Tagging everything! This very page is an example of how well I can work with it</p>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-img">
+                  <img src="images/css3_logo.png" class="img-small" alt="CSS3">
+                </div>
+                <div class="list-body">
+                  <h4>CSS 3</h4>
+                  <p>Good style! That's how I made this profile page pretty</p>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-img">
+                  <img src="images/javascript_logo.png" class="img-small" alt="Javascript">
+                </div>
+                <div class="list-body">
+                  <h4>Javascript</h4>
+                  <p>From front to back end, Javascript is a <i>must</i></p>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="list-img">
+                  <img src="images/ruby_logo.png" class="img-xsmall" alt="Ruby">
+                </div>
+                <div class="list-body">
+                  <h4>Ruby</h4>
+                  <p>Some nice programs are done with this!</p>
+                </div>
+              </div>
+            </div>
+            <h3 class="btn-centered">There's More!</h3>
+          </div>
+        </div>
       </div>
-
-      <div class="box-white">
-        <h2>Find me online</h2>
-        <ul>
-          <li><a href="#"><i class="fa social-icon fa-github" aria-hidden="true"> <br>Github</i></a></li>
-          <li><a href="#"><i class="fa social-icon fa-linkedin" aria-hidden="true"> <br>LinkedIn</i></a></li>
-          <li><a href="#"><i class="fa social-icon fa-facebook" aria-hidden="true"> <br>Facebook</i></a></li>
-        </ul>
-      </div>
-
-      <div class="box-white">
-        <h2>Some things that I can work with!</h2>
-        <table>
-          <tr>
-            <td><img src="images/html5_logo.png" class="img-medium" alt="HTML5"></td>
-            <td>
-              <h3>HTML 5</h3>
-              <p>Tagging everything! This very page is an example of how well I can work with it</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/css3_logo.png" class="img-medium" alt="CSS3"></td>
-            <td>
-              <h3>CSS 3</h3>
-              <p>Good style! That's how I made this profile page pretty</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/javascript_logo.png" class="img-medium" alt="JS"></td>
-            <td>
-              <h3>JavaScript</h3>
-              <p>From front to back end, Javascript is a <i>must</i></p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/ruby_logo.png" class="img-medium" alt="Ruby"></td>
-            <td>
-              <h3>Ruby</h3>
-              <p>Some nice programs are done with this!</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-
     </div>
+
+    <div class="container">
+      <div class="portfolio">
+        <div class="card full-portfolio">
+          <div class="card-content">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
