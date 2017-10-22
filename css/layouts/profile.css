@@ -35,8 +35,9 @@
   grid-column: 3 / span 2;
 }
 
-@media (max-width: 500px){
+@media (max-width: 750px){
   .profile{
     display: block;
+    margin-left: 5%;
   }
 }
