@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Metas -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,105 +8,113 @@
 
     <!-- Outside links -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <!-- Inside links -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Rafael Alonso's Profile Page</title>
-  </head>
-  <body>
+  <title>Secret page</title>
 
-    <div class="navbar">
-      <div class="normal-icon">
-        <a href="#info"><i class="icon-white fa fa-info-circle text-center"></i></a><br>
-        <a href="#portfolio"><i class="icon-white fa fa-code"></i></a></li>
-      </div>
-      <div class="secret-icon">
-        <a href="/secret.html"><i class="icon-secret fa fa-lock"></i></a>
+  <!-- <script type="text/javascript">
+    var password = "0105";
+    var string = prompt("Please enter the password", "");
+    if(string != password) {
+    alert("Wrong password!");
+      window.location="about:blank";
+    }
+  </script> -->
+
+</head>
+<body>
+  <div class="banner" id="banner">
+    <div class="banner-content">
+      <h1>Hi! I'm Rafael</h1>
+      <h2>And this is my webpage</h2>
+      <img src="images/profile.jpg" alt="Me" class="profile-img-lg">
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="welcome">
+      <h2 class="">Click in the arrow or scroll to continue!</h2>
+    </div>
+    <a href="#main-content"><i class="fa fa-arrow-down arrow"></i></a>
+  </div>
+  <div class="wrapper">
+    <div class="container main-content" id="main-content">
+      <div class="grid">
+          <div class="card who-section text-justified">
+            <h3 class="text-center">Who I am</h3>
+            <p>I am a Brazilian computer scientist with a heart desire to improve education the best I can, and I believe that
+            using technology is one of the best ways to do so. I also went to LeWagon Montreal to improve my web skills, learn
+            about the culture and have a great experience. Other stuff that I studied include Video Production, Game Design,
+            Entrepreneurship, Classical Music and Book Wirting.</p>
+          </div>
+          <div class="card what-section text-justified">
+            <h3 class="text-center">What I do</h3>
+            <p>Currently, I'm still at LeWagon Montreal, finishing the course. Despite that, I'm at the third year of the Computer
+            Science Bachelor's degree at the Federal Univeristy of São Carlos, Sorocaba's campus. Did small freelance jobs while
+            inside the university, but never had a an office job in my area.</p>
+          </div>
+          <div class="card know-section text-center">
+            <h3>What I know</h3>
+            <img src="images/knowledge/html5_logo.png" alt="HTML5" class="img-xsmall">
+            <img src="images/knowledge/css3_logo.png" alt="CSS3" class="img-xsmall">
+            <img src="images/knowledge/javascript_logo.png" alt="Javascript" class="img-xsmall">
+            <img src="images/knowledge/c_logo.png" alt="Ruby" class="img-xsmall">
+            <img src="images/knowledge/c++_logo.png" alt="Ruby" class="img-xsmall">
+            <img src="images/knowledge/java_logo.png" alt="Ruby" class="img-xsmall">
+            <img src="images/knowledge/guitar_logo.png" alt="Ruby" class="img-xsmall">
+            <img src="images/knowledge/presentation_logo.png" alt="Ruby" class="img-xsmall">
+            <img src="images/knowledge/writing_logo.png" alt="Ruby" class="img-xsmall">
+            <img src="images/knowledge/game_logo.png" alt="Ruby" class="img-xsmall">
+          </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="profile">
-        <div class="card main-section">
-          <div class="card-content">
-            <img src="images/profile_img.png" alt="Rafael Alonso's Profile picture" id="profile-img">
-            <h1>Hi, I'm Rafael Alonso</h1>
-            <h4>Student @LeWagon, programmer and Computer Scientist</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sequi, quaerat aliquam. Dignissimos quibusdam suscipit, possimus cumque facilis! Exercitationem eius, fuga aspernatur. </p>
-          </div>
+  </div>
+  <div class="wrapper">
+    <div class="footer">
+      <div class="row">
+        <div class="card col-xs-12 text-center">
+          <h3>Me when "not a programmer"</h3>
+          <p>Whe not facing the computer, there are some things that I really enjoy in my spare time</p>
+          <img src="images/freetime/movie_icon.png" alt="" class="img-xsmall">
+          <img src="images/freetime/read_icon.png" alt="" class="img-xsmall">
+          <img src="images/freetime/youtube_icon.png" alt="" class="img-xsmall">
+          <img src="images/freetime/travel_icon.jpg" alt="" class="img-xsmall">
+          <img src="images/freetime/sleep_icon.ico" alt="" class="img-xsmall">
+          <img src="images/freetime/food_icon.jpg" alt="" class="img-xsmall">
+          <img src="images/freetime/research_icon.png" alt="" class="img-xsmall">
+          <br><br>
+          <img src="images/freetime/amoi_icon.jpg" alt="" class="avatar-img-sm">
+          <img src="images/freetime/beach_icon.jpg" alt="" class="avatar-img-sm">
+          <img src="images/freetime/family_icon.jpg" alt="" class="avatar-img-sm">
+          <img src="images/freetime/fun_icon.jpg" alt="" class="avatar-img-sm">
+          <img src="images/freetime/kiss_icon.jpg" alt="" class="avatar-img-sm">
         </div>
-        <div class="card social-section">
-          <div class="card-content">
-            <h3>You can find me here</h3>
-            <ul class="text-center list-inline">
-              <li><a href="#"><i class="fa social-icon fa-github" aria-hidden="true"> <br>Github</i></a></li>
-              <li><a href="#"><i class="fa social-icon fa-linkedin" aria-hidden="true"> <br>LinkedIn</i></a></li>
-              <li><a href="#"><i class="fa social-icon fa-facebook" aria-hidden="true"> <br>Facebook</i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="card sample-section">
-          <div class="card-content">
-            <h3 class="text-center">Some things that I can work with!</h3>
-            <div class="list">
-              <div class="list-item">
-                <div class="list-img">
-                  <img src="images/html5_logo.png" class="img-small" alt="HTML5">
-                </div>
-                <div class="list-body">
-                  <h4>HTML 5</h4>
-                  <p>Tagging everything! This very page is an example of how well I can work with it</p>
-                </div>
-              </div>
-              <div class="list-item">
-                <div class="list-img">
-                  <img src="images/css3_logo.png" class="img-small" alt="CSS3">
-                </div>
-                <div class="list-body">
-                  <h4>CSS 3</h4>
-                  <p>Good style! That's how I made this profile page pretty</p>
-                </div>
-              </div>
-              <div class="list-item">
-                <div class="list-img">
-                  <img src="images/javascript_logo.png" class="img-small" alt="Javascript">
-                </div>
-                <div class="list-body">
-                  <h4>Javascript</h4>
-                  <p>From front to back end, Javascript is a <i>must</i></p>
-                </div>
-              </div>
-              <div class="list-item">
-                <div class="list-img">
-                  <img src="images/ruby_logo.png" class="img-xsmall" alt="Ruby">
-                </div>
-                <div class="list-body">
-                  <h4>Ruby</h4>
-                  <p>Some nice programs are done with this!</p>
-                </div>
-              </div>
-            </div>
-            <h3 class="btn-centered">There's More!</h3>
-          </div>
+        <div class="card col-xs-12 text-center">
+          <h3>Want to know me better?</h3>
+          <ul class="text-center list-inline">
+            <li>
+              <a href="https://github.com/RafaelAlonso" target="_blank">
+                <i class="fa social-icon fa-github" aria-hidden="true"> <br>Github</i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rafaelalonso42/" target="_blank">
+                <i class="fa social-icon fa-linkedin" aria-hidden="true"> <br>LinkedIn</i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rafael.alonso42" target="_blank">
+                <i class="fa social-icon fa-facebook" aria-hidden="true"> <br>Facebook</i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
+      <a href="#banner"><i class="fa fa-arrow-up arrow"></i></a>
     </div>
-
-    <!-- <div class="container">
-      <div class="portfolio">
-        <div class="card full-portfolio">
-          <div class="card-content">
-            <h3>Here's All of the stuff that I know!</h3>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+  </div>
+</body>
 </html>
